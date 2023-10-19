@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="click_purple">#35353f</color>
+    <color name="click_purple_light">#4A4A5A</color>
+    <color name="click_blue">#096ce2</color>
+</resources>
