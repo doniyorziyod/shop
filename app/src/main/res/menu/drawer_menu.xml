@@ -5,23 +5,28 @@
     tools:ignore="MissingDefaultResource">
     <group android:checkableBehavior="none">
         <item
-            android:id="@+id/menu_settings"
+            android:id="@+id/menu_profile"
             android:icon="@drawable/settings_icon"
             app:tint="@color/white"
-            android:orderInCategory="100"
-            android:title="Settings" />
+            android:title="Profile"
+            />
         <item
-            android:id="@+id/menu_share"
-            android:icon="@drawable/share_icon"
-            android:iconTint="@color/white"
-            android:orderInCategory="100"
+            android:id="@+id/menu_cart"
+            android:icon="@drawable/cart_icon"
             app:tint="@color/white"
-            android:title="Share" />
+            android:title="Cart"
+           />
+
         <item
             android:id="@+id/menu_info"
             android:icon="@drawable/info_icon"
             app:tint="@color/white"
-            android:orderInCategory="200"
             android:title="Info" />
+        <item
+            android:id="@+id/menu_logout"
+            android:icon="@drawable/logout_icon"
+            android:iconTint="#FF0000"
+            app:tint="#FF0000"
+            android:title="Logout" />
     </group>
 </menu>
